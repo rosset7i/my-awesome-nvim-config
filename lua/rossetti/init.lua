@@ -190,7 +190,7 @@ require("lazy").setup({
 					html = { "prettier" },
 					json = { "prettier" },
 					lua = { "stylua" },
-					cs = { "clang-format" },
+					-- Disabled cuz i'm not sure i like it cs = { "csharpier" },
 					rust = { "rustfmt" },
 				},
 				format_on_save = {
